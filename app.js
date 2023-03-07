@@ -10,6 +10,7 @@ const globarErrorController = require('./controllers/errorController');
 const AppError = require('./utils/appError');
 const cookieParser = require('cookie-parser');
 
+//Start express aplication
 const app = express();
 
 app.set('view engine', 'pug');
